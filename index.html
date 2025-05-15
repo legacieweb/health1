@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HealthCare Plus</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">HealthCare Plus</h1>
+      <ul class="flex space-x-6 text-sm">
+        <li><a href="#services" class="hover:text-blue-500">Services</a></li>
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Hero Section -->
+<section class="bg-blue-100 py-20">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between">
+    
+    <!-- Text Content -->
+    <div class="text-center md:text-left md:w-1/2 mt-10 md:mt-0">
+      <h2 class="text-4xl font-bold text-blue-700 mb-4">Your Health, Our Priority</h2>
+      <p class="text-lg text-gray-700 mb-6">Trusted care from professionals you can rely on.</p>
+      <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Book Appointment</a>
+    </div>
+
+    <!-- Crazy Framed Image -->
+    <div class="relative md:w-1/2 flex justify-center">
+      <div class="relative w-72 h-72 transform rotate-6 border-4 border-dashed border-blue-400 shadow-xl">
+        <img 
+          src="https://images.pexels.com/photos/1139315/pexels-photo-1139315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="Healthcare Professional"
+          class="w-full h-full object-cover rounded-lg transform -rotate-6 hover:rotate-0 transition duration-500 ease-in-out"
+        />
+        <div class="absolute top-0 left-0 w-full h-full border-4 border-white rounded-lg pointer-events-none"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Services Section -->
+<section id="services" class="py-24 bg-gradient-to-br from-white via-blue-50 to-blue-100">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <h3 class="text-4xl font-bold text-center text-blue-900 mb-20">Our Services</h3>
+    <div class="space-y-24">
+
+      <!-- Reusable Service Item -->
+      <!-- Service 1 -->
+      <div class="flex flex-col lg:flex-row items-center lg:items-start gap-10">
+        <div class="relative w-[260px] h-[260px] sm:w-[300px] sm:h-[300px] lg:w-[320px] lg:h-[320px] mx-auto lg:mx-0 transform rotate-45 overflow-hidden shadow-xl">
+          <img src="https://images.pexels.com/photos/5867732/pexels-photo-5867732.jpeg?auto=compress&cs=tinysrgb&w=600"
+               alt="Primary Care"
+               class="absolute inset-0 w-full h-full object-cover transform -rotate-45 scale-125 rounded-lg" />
+        </div>
+        <div class="flex-1 text-center lg:text-left">
+          <h4 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-3">Primary Care</h4>
+          <p class="text-base sm:text-lg text-gray-700 leading-relaxed">Routine exams, preventive care, and chronic condition management tailored for all age groups. Our focus is your long-term wellness and comfort.</p>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start gap-10">
+        <div class="relative w-[260px] h-[260px] sm:w-[300px] sm:h-[300px] lg:w-[320px] lg:h-[320px] mx-auto lg:mx-0 transform rotate-45 overflow-hidden shadow-xl">
+          <img src="https://images.pexels.com/photos/28123700/pexels-photo-28123700/free-photo-of-portrait-of-paramedics.jpeg?auto=compress&cs=tinysrgb&w=600"
+               alt="Emergency Services"
+               class="absolute inset-0 w-full h-full object-cover transform -rotate-45 scale-125 rounded-lg" />
+        </div>
+        <div class="flex-1 text-center lg:text-left">
+          <h4 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-3">Emergency Services</h4>
+          <p class="text-base sm:text-lg text-gray-700 leading-relaxed">Immediate response to urgent health crises 24/7. Our ER teams handle trauma, strokes, and emergencies with state-of-the-art equipment.</p>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="flex flex-col lg:flex-row items-center lg:items-start gap-10">
+        <div class="relative w-[260px] h-[260px] sm:w-[300px] sm:h-[300px] lg:w-[320px] lg:h-[320px] mx-auto lg:mx-0 transform rotate-45 overflow-hidden shadow-xl">
+          <img src="https://images.pexels.com/photos/7195115/pexels-photo-7195115.jpeg?auto=compress&cs=tinysrgb&w=600"
+               alt="Telehealth"
+               class="absolute inset-0 w-full h-full object-cover transform -rotate-45 scale-125 rounded-lg" />
+        </div>
+        <div class="flex-1 text-center lg:text-left">
+          <h4 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-3">Telehealth</h4>
+          <p class="text-base sm:text-lg text-gray-700 leading-relaxed">Virtual medical consultations with secure video calls and prescriptions—so you can stay healthy from the comfort of home.</p>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start gap-10">
+        <div class="relative w-[260px] h-[260px] sm:w-[300px] sm:h-[300px] lg:w-[320px] lg:h-[320px] mx-auto lg:mx-0 transform rotate-45 overflow-hidden shadow-xl">
+          <img src="https://www.verywellhealth.com/thmb/TjVTs8qMwj67FTGntJLcUsuH30U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/146263974-56a6fc963df78cf772914bac.jpg"
+               alt="Pediatric Care"
+               class="absolute inset-0 w-full h-full object-cover transform -rotate-45 scale-125 rounded-lg" />
+        </div>
+        <div class="flex-1 text-center lg:text-left">
+          <h4 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-3">Pediatric Care</h4>
+          <p class="text-base sm:text-lg text-gray-700 leading-relaxed">Specialized medical care for children from birth to adolescence. We focus on growth, development, and preventive wellness.</p>
+        </div>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="flex flex-col lg:flex-row items-center lg:items-start gap-10">
+        <div class="relative w-[260px] h-[260px] sm:w-[300px] sm:h-[300px] lg:w-[320px] lg:h-[320px] mx-auto lg:mx-0 transform rotate-45 overflow-hidden shadow-xl">
+          <img src="https://www.oncologysystems.com/wp-content/uploads/2023/11/Philips-MRI.jpg"
+               alt="Diagnostic Imaging"
+               class="absolute inset-0 w-full h-full object-cover transform -rotate-45 scale-125 rounded-lg" />
+        </div>
+        <div class="flex-1 text-center lg:text-left">
+          <h4 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-3">Diagnostic Imaging</h4>
+          <p class="text-base sm:text-lg text-gray-700 leading-relaxed">We provide X-rays, CT scans, MRIs, and ultrasounds using the latest technology to ensure accurate diagnoses.</p>
+        </div>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start gap-10">
+        <div class="relative w-[260px] h-[260px] sm:w-[300px] sm:h-[300px] lg:w-[320px] lg:h-[320px] mx-auto lg:mx-0 transform rotate-45 overflow-hidden shadow-xl">
+          <img src="https://images.pexels.com/photos/4098361/pexels-photo-4098361.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+               alt="Mental Health"
+               class="absolute inset-0 w-full h-full object-cover transform -rotate-45 scale-125 rounded-lg" />
+        </div>
+        <div class="flex-1 text-center lg:text-left">
+          <h4 class="text-2xl sm:text-3xl font-bold text-blue-700 mb-3">Mental Health</h4>
+          <p class="text-base sm:text-lg text-gray-700 leading-relaxed">Private and compassionate therapy, counseling, and psychiatric support for emotional and psychological health.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- About Section -->
+<section id="about" class="py-24 bg-gradient-to-b from-blue-50 to-white">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+
+    <!-- Text Content -->
+    <div class="text-center lg:text-left">
+      <h3 class="text-4xl font-bold text-blue-800 mb-6">Why Choose Us?</h3>
+      <p class="text-lg text-gray-700 leading-relaxed mb-6">
+        At <strong>HealthCare Plus</strong>, we provide more than just treatment — we deliver trust. With state-of-the-art medical facilities, a compassionate team, and a commitment to innovation, we ensure every patient receives the care they deserve.
+      </p>
+      <ul class="space-y-3 text-left text-gray-700 text-base">
+        <li>✔️ Personalized and preventive care for all ages</li>
+        <li>✔️ Accredited specialists and licensed professionals</li>
+        <li>✔️ 24/7 emergency response & virtual access</li>
+        <li>✔️ Safe, clean, and modern facilities</li>
+      </ul>
+    </div>
+
+    <!-- Massive Vertical Image -->
+    <div class="w-full">
+      <div class="h-[500px] sm:h-[600px] lg:h-[700px] w-full overflow-hidden rounded-xl shadow-xl">
+        <img src="https://images.pexels.com/photos/3957986/pexels-photo-3957986.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+             alt="Healthcare Professional"
+             class="w-full h-full object-cover object-center" />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Consultation Fees Section -->
+<section id="fees" class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-4xl font-bold text-blue-800 mb-4">Consultation Fees</h3>
+    <p class="text-lg text-gray-600 mb-12">Transparent pricing for quality care across all our services.</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+      <!-- Pricing Card -->
+      <div class="bg-blue-50 border border-blue-100 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out animate-fadeIn">
+        <h4 class="text-2xl font-semibold text-blue-700 mb-2">Primary Care</h4>
+        <p class="text-gray-600 mb-4">Routine check-ups and general consultations.</p>
+        <div class="text-3xl font-bold text-blue-900 mb-4">$50</div>
+        <button data-service="Primary Care" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Book Now</button>
+      </div>
+
+      <!-- Pricing Card -->
+      <div class="bg-blue-50 border border-blue-100 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out animate-fadeIn">
+        <h4 class="text-2xl font-semibold text-blue-700 mb-2">Emergency Services</h4>
+        <p class="text-gray-600 mb-4">Urgent care with specialized staff available 24/7.</p>
+        <div class="text-3xl font-bold text-blue-900 mb-4">$120</div>
+       <button data-service="Emergency Services" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Book Now</button>
+
+      </div>
+
+      <!-- Pricing Card -->
+      <div class="bg-blue-50 border border-blue-100 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out animate-fadeIn">
+        <h4 class="text-2xl font-semibold text-blue-700 mb-2">Telehealth</h4>
+        <p class="text-gray-600 mb-4">Virtual care from the comfort of your home.</p>
+        <div class="text-3xl font-bold text-blue-900 mb-4">$30</div>
+       <button data-service="Telehealth" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Book Now</button>
+
+      </div>
+
+      <!-- Pricing Card -->
+      <div class="bg-blue-50 border border-blue-100 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out animate-fadeIn">
+        <h4 class="text-2xl font-semibold text-blue-700 mb-2">Pediatric Care</h4>
+        <p class="text-gray-600 mb-4">Child-specific consultations and immunization support.</p>
+        <div class="text-3xl font-bold text-blue-900 mb-4">$45</div>
+       <button data-service="Pediatric Care" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Book Now</button>
+
+      </div>
+
+      <!-- Pricing Card -->
+      <div class="bg-blue-50 border border-blue-100 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out animate-fadeIn">
+        <h4 class="text-2xl font-semibold text-blue-700 mb-2">Diagnostic Imaging</h4>
+        <p class="text-gray-600 mb-4">X-rays, MRIs, and other diagnostics by appointment.</p>
+        <div class="text-3xl font-bold text-blue-900 mb-4">$75</div>
+       <button data-service="Diagnostic Imaging" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Book Now</button>
+
+      </div>
+
+      <!-- Pricing Card -->
+      <div class="bg-blue-50 border border-blue-100 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out animate-fadeIn">
+        <h4 class="text-2xl font-semibold text-blue-700 mb-2">Mental Health</h4>
+        <p class="text-gray-600 mb-4">Therapy and psychiatric support in a safe space.</p>
+        <div class="text-3xl font-bold text-blue-900 mb-4">$60</div>
+       <button data-service="Mental Health" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">Book Now</button>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-24 bg-gradient-to-br from-blue-50 to-white">
+  <div class="max-w-2xl mx-auto px-6">
+    <h3 class="text-4xl font-bold text-center text-blue-900 mb-8">Book a Consultation</h3>
+
+    <form id="bookingForm" class="space-y-6 bg-white shadow-md rounded-xl p-8 border border-blue-100">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <input type="text" name="name" placeholder="Your Name" required class="p-3 border rounded w-full">
+        <input type="email" name="email" placeholder="Email Address" required class="p-3 border rounded w-full">
+      </div>
+
+      <input type="tel" name="phone" placeholder="Phone Number" required pattern="[0-9+ -]{7,}" class="w-full p-3 border rounded">
+
+      <select name="service" id="serviceDropdown" required class="w-full p-3 border rounded text-gray-600">
+        <option value="">-- Select a Service --</option>
+        <option value="Primary Care">Primary Care</option>
+        <option value="Emergency Services">Emergency Services</option>
+        <option value="Telehealth">Telehealth</option>
+        <option value="Pediatric Care">Pediatric Care</option>
+        <option value="Diagnostic Imaging">Diagnostic Imaging</option>
+        <option value="Mental Health">Mental Health</option>
+      </select>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <input type="date" name="date" required class="p-3 border rounded w-full">
+        <input type="time" name="time" required class="p-3 border rounded w-full">
+      </div>
+
+      <textarea name="message" placeholder="Additional Message (Optional)" rows="4" class="w-full p-3 border rounded"></textarea>
+
+      <button id="submitBtn" type="submit" class="w-full bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
+        Confirm Appointment
+      </button>
+    </form>
+
+    <p id="formSuccess" class="text-green-600 text-center mt-6 hidden">✅ Booking submitted successfully!</p>
+  </div>
+</section>
+
+<!-- JavaScript to handle selection and submission -->
+<script>
+  // Auto-fill service dropdown
+  document.querySelectorAll('button[data-service]').forEach(button => {
+    button.addEventListener('click', () => {
+      const service = button.getAttribute('data-service');
+      const dropdown = document.getElementById('serviceDropdown');
+      dropdown.value = service;
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+
+  // Form submission logic
+  document.getElementById('bookingForm').addEventListener('submit', async function (e) {
+    e.preventDefault();
+    const form = e.target;
+    const submitBtn = document.getElementById('submitBtn');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      const res = await fetch('http://localhost:3000/api/book', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+      if (res.ok) {
+        form.reset();
+        document.getElementById('formSuccess').classList.remove('hidden');
+      } else {
+        alert("Something went wrong.");
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Confirm Appointment';
+      }
+    } catch (err) {
+      alert("Server error.");
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Confirm Appointment';
+    }
+  });
+</script>
+
+<!-- Footer -->
+<footer class="bg-blue-700 text-white pt-16 pb-8 px-6">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+
+    <!-- Contact Info -->
+    <div>
+      <h4 class="text-xl font-semibold mb-4">Contact Us</h4>
+      <p>📍 250 Madison Ave, New York, NY 10016</p>
+      <p>📞 +1 (212) 555-7890</p>
+      <p>✉️ support@healthcareplus.com</p>
+    </div>
+
+    <!-- Embedded Map -->
+    <div>
+      <h4 class="text-xl font-semibold mb-4">Find Us</h4>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.7274603154225!2d-73.98243238430561!3d40.74918917932767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259025c3e28f9%3A0x39ffb9f79a5e2794!2s250%20Madison%20Ave%2C%20New%20York%2C%20NY%2010016%2C%20USA!5e0!3m2!1sen!2sus!4v1715776227490!5m2!1sen!2sus"
+        width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Social Media -->
+    <div>
+      <h4 class="text-xl font-semibold mb-4">Follow Us</h4>
+      <div class="flex space-x-5 text-white text-2xl">
+        <a href="https://facebook.com" target="_blank" class="hover:text-gray-300" aria-label="Facebook">
+          <svg fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+            <path d="M22 12.07C22 6.5 17.5 2 12 2S2 6.5 2 12.07c0 5 3.66 9.13 8.44 9.93v-7.03H8v-2.9h2.44V9.41c0-2.4 1.43-3.72 3.63-3.72 1.05 0 2.14.19 2.14.19v2.36h-1.21c-1.2 0-1.58.75-1.58 1.52v1.82h2.69l-.43 2.9h-2.26v7.03C18.34 21.2 22 17.07 22 12.07z"/>
+          </svg>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="hover:text-gray-300" aria-label="Twitter">
+          <svg fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+            <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 001.89-2.38 8.59 8.59 0 01-2.72 1.04 4.28 4.28 0 00-7.3 3.9A12.1 12.1 0 013 4.6a4.28 4.28 0 001.32 5.72 4.24 4.24 0 01-1.94-.54v.05a4.28 4.28 0 003.44 4.2 4.28 4.28 0 01-1.93.07 4.29 4.29 0 004 2.97A8.6 8.6 0 012 19.54a12.13 12.13 0 006.56 1.92c7.88 0 12.2-6.53 12.2-12.2 0-.18-.01-.36-.02-.54A8.72 8.72 0 0024 5.1a8.41 8.41 0 01-2.54.7z"/>
+          </svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="hover:text-gray-300" aria-label="LinkedIn">
+          <svg fill="currentColor" viewBox="0 0 24 24" class="w-6 h-6">
+            <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4V24h-4V8.5zM9.5 8.5h3.6v2.12h.05c.5-.95 1.73-1.96 3.57-1.96 3.81 0 4.5 2.51 4.5 5.77V24h-4v-6.76c0-1.61-.03-3.7-2.25-3.7-2.25 0-2.6 1.75-2.6 3.58V24h-4V8.5z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="mt-12 border-t border-blue-500 pt-6 text-center text-sm text-blue-100">
+    &copy; 2025 HealthCare Plus. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
